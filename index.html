@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+	  <link rel="stylesheet" href="style.css">
+	  <link rel="shortcut icon" type="image/png" href="src/GSIconBonW.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ceab6117ab.js" crossorigin="anonymous"></script>
+	  <title>Guy Shemesh -  Technology Solutions</title>
+</head>
+<body>
+    <nav id="navCont">
+        <ul class="navMenu">
+            <!-- <li class="navTxt"><a href="#home">Home</a></li> -->
+            <li class="navTxt"><a href="#about">About Me</a></li>
+            <li class="navTxt"><a href="#services">Services</a></li>
+            <li class="navLogo"><a href="" class="navLogoLink"><img src="src/GSlogoW.png" alt="Logo" class="navLogoImg"></a></li>
+            <li class="navTxt"><a href="#works">Projects</a></li>
+            <li class="navTxt"><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="mobileNav">
+            <a href="" class="navLogoLink"><img src="src/GSlogoW.png" alt="Logo" class="navLogoImg"></a>
+            <button id="hamburgerBar" class="menu__icon" onclick="toggleMenu()"><span></span><span></span></button>
+        </div>
+        <div id="sideBar" class="sideMenu">
+            <ul class="mobileMenu">
+                <li onclick="toggleMenu()" class="navTxt"><a href="#about">About</a></li>
+                <!-- <li class="navTxt"><a href="#about">About</a></li> -->
+                <li onclick="toggleMenu()" class="navTxt"><a href="#services">My Services</a></li>
+                <li onclick="toggleMenu()" class="navTxt"><a href="#works">My Works</a></li>
+                <li onclick="toggleMenu()" class="navTxt"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="homeCont">
+        <div id="homeTxtBox">
+          <p id="homeTitle"></p>
+          <p id="homeMain"></p>
+          <p class="homeSub" id="homeSub1"></p>
+          <p class="homeSub" id="homeSub2"></p>
+        </div>
+        <img id="homeBg" src="src/bg.png" alt="">
+    </section>
+    <section class="aboutCont">
+      <div id="about"></div>
+      <div class="aboutRow">
+        <div class="aboutImgBox">
+          <img src="src/about.jpg" alt="about" class="aboutImg">
+        </div>
+        <div class="aboutTxtBox">
+          <h1 class="aboutTitle">About Me</h1>
+          <p class="aboutInfo">Hi! I am Guy Shemesh and I am 17 years old. I deal with a variety of technology services such as website building, video editing and drone photography. I try my best to provide the best service I can while doing work in a way as professional as I can and at an affordable price.</p>
+          <h3 class="aboutSubtitle">Experience level in each field:</h3>
+          <ul class="expList">
+            <li class="expTxt">Programming - <span>5 Years</span></li>
+            <li class="expTxt">Web Developing - <span>4 Years</span></li>
+            <li class="expTxt">Video Editing - <span>2.5 Years</span></li>
+            <li class="expTxt">Drone Shooting - <span>3.5 Years</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="serviceCont">
+      <div id="services"></div>
+      <div class="serviceTxtBox">
+          <p class="serviceTitle">My Services</p>
+          <p class="serviceSubtitle"></p>
+      </div>
+      <div class="serviceCardsBox">
+        <div class="card" id="card1">
+          <div class="content">
+            <div class="back">
+              <div class="back-content">
+                <div class="topDiv">
+                  <i class="fa-solid fa-code serviceIcon" style="font-size: 4em;"></i>
+                  <strong class="serviceCardTitle">Web Development</strong>
+                </div>
+                <div class="serviceLm">Learn More</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="card2">
+          <div class="content">
+            <div class="back">
+              <div class="back-content">
+                <div class="topDiv">
+                  <i class="fa-solid fa-clapperboard serviceIcon" style="font-size: 4em;"></i>
+                  <strong class="serviceCardTitle">Video Editing</strong>
+                </div>
+                <div class="serviceLm">Learn More</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="card3">
+          <div class="content">
+            <div class="back">
+              <div class="back-content">
+                <div class="topDiv">
+                  <i class="fa-solid fa-photo-film serviceIcon" style="font-size: 4em;"></i>
+                  <strong class="serviceCardTitle">Drone Photography</strong>
+                </div>
+                <div class="serviceLm">Learn More</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="worksCont">
+      <div id="works"></div>
+      <div class="worksTxtBox">
+          <p class="worksTitle">Chosen Projects</p>
+          <p class="worksSubtitle"></p>
+      </div>
+      <div class="worksCardsBox">
+        <!-- <div class="worksCard">
+          <div class="worksImgBox">
+              <img src="src/worksWeb.png"></img>
+          </div>
+          <div class="worksInfoBox">
+              <p class="worksInfoTitle">Pamolit 12 - Shoham</p>
+              <p class="worksInfoSubtitle">A website for an apartment for rent</p>
+          </div>
+          <div class="worksBottomBox">
+              <p class="worksBottomTag">#WebBuild</p>
+              <button class="worksBottomBtn">View Project<div class="arrow-wrapper"><div class="arrow"></div></div></button>
+          </div>
+        </div> -->
+        <div class="worksCard">
+          <div class="worksImgBox">
+              <img src="src/pjwAniFrame.png"></img>
+          </div>
+          <div class="worksInfoBox">
+              <p class="worksInfoTitle">AniFrame - From AniSuper</p>
+              <p class="worksInfoSubtitle">An active website for ordering photos in a frame including user experiences</p>
+          </div>
+          <div class="worksBottomBox">
+              <p class="worksBottomTag">#WebBuild</p>
+              <button class="worksBottomBtn">View Project<div class="arrow-wrapper"><div class="arrow"></div></div></button>
+          </div>
+        </div>
+        <div class="worksCard">
+          <div class="worksImgBox">
+              <img src="src/works.avif"></img>
+          </div>
+          <div class="worksInfoBox">
+              <p class="worksInfoTitle">Elad Bar Mitzva</p>
+              <p class="worksInfoSubtitle">Photo video edit for the bar mitzva event</p>
+          </div>
+          <div class="worksBottomBox">
+              <p class="worksBottomTag">#VideoEdit</p>
+              <button class="worksBottomBtn">View Project<div class="arrow-wrapper"><div class="arrow"></div></div></button>
+          </div>
+        </div>
+        <div class="worksCard">
+          <div class="worksImgBox">
+              <img src="src/works.avif"></img>
+          </div>
+          <div class="worksInfoBox">
+              <p class="worksInfoTitle">Microsoft Campus</p>
+              <p class="worksInfoSubtitle">A video of microsoft campus in herzelia</p>
+          </div>
+          <div class="worksBottomBox">
+              <p class="worksBottomTag">#DroneShot</p>
+              <button class="worksBottomBtn">View Project<div class="arrow-wrapper"><div class="arrow"></div></div></button>
+          </div>
+        </div>
+      </div>
+      <a class="worksMoreBtn" href="projects.html">More Projects</a>
+    </section>
+    <section class="contactCont">
+      <div id="contact"></div>
+      <div class="contactTop">
+			  <p class="contactTitle">Contact Me</p>
+      </div>
+      <div class="formCont">
+        <div class="formInfo"></div>
+        <div class="formForm">
+          <form action="sendmail.php" method="post">
+            <div class="formRow">
+              <div class="formInputBox">
+                <label for="name" class="formLabel">First Name: <span class="formLabelMark">*</span></label>
+                <input class="formInput" type="text" name="fname" placeholder="First Name" required>
+              </div>
+              <div class="formInputBox">
+                <label for="name" class="formLabel">Last Name: <span class="formLabelMark">*</span></label>
+                <input class="formInput" type="text" name="lname" placeholder="Last Name" required>
+              </div>
+            </div>
+            <div class="formRow">
+              <div class="formInputBox">
+                <label for="name" class="formLabel">Email Address: <span class="formLabelMark">*</span></label>
+                <input class="formInput" type="email" name="email" placeholder="Email Address" required>
+              </div>
+              <div class="formInputBox">
+                <label for="name" class="formLabel">Phone Number: <span class="formLabelMark">*</span></label>
+                <input class="formInput" type="number" name="phone" placeholder="Phone Number" required>
+              </div>
+            </div>
+            <div class="formTextareaBox">
+              <label for="name" class="formLabel">Message: <span class="formLabelMark">*</span></label>
+              <textarea rows="5" class="formInput" name="message" id="textarea" placeholder="Message" required></textarea>
+            </div>
+            <input type="submit" value="Send →">
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p class="footerTxt">Designed & Built By <span>Guy Shemesh</span> Web Development</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
