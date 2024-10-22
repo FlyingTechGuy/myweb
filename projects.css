@@ -185,13 +185,13 @@ body.show {
 .ull .list::before,
 .ull .list::after {
   content: '';
-  width: 0%;
+  width: 10px;
   height: 1.5px;
   border-radius: 10px;
   background-color: #fff;
   box-shadow: 1px 1px #0000005f;
   opacity: 0;
-  transform: translateY(2px);
+  transform: translateY(4px); /* 2px */
   transition: 0.4s;
 }
 
@@ -216,7 +216,7 @@ body.show {
 }
 
 .ull .list.actives::after {
-  width: 100%;
+  width: 10px;
   opacity: 1;
 }
 
